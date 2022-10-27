@@ -25,9 +25,7 @@ export default function MediaCard({user}) {
         <Typography variant="body2" color="text.secondary">
           {user.email}
         </Typography>
-        <Typography variant="body2" color="text.secondary">
-          {user.phone}
-        </Typography>
+       
         <Typography variant="body2" color="text.secondary">
           {user.location.street.number}, {user.location.street.name},{" "}
           {user.location.city}, {user.location.state}, {user.location.country},{" "}
